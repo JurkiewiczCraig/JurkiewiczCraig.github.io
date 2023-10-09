@@ -1,157 +1,183 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 <title>Craig Jurkiewicz Resume</title>
- 
+ <!-- overall design of this webpage taken from a resume done by Craig Jurkiewicz -->
 <style>
 body{
 background-color:#ffe4b5 
 }
-div.indent1 {
+/* This selector changes the background color */
+.indent1 {
   text-indent: 50px;
+  
 }
-div.indent2{
+
+ 
+
+.indent2{
 	text-indent: 400px;
 	 display: inline-block;
+	  /* These selectors indent the line 400 pixels and turn the element into an in-line block */
 }
 .headings{
 	text-align: center;
 	color: brown; 
-	
+	    font-size: 2.5em
+	/* the above celectors align the text to the center of the webpage, turn the font color brown and change the font size to 2.5*/
 }
 a{ 
 	text-decoration: none;
 	}
+	/* the above selector turns off the text decoration to any hyperlinks*/
 a:link {
   color: #56494c;
 }
+/* the above selector changes the color of a normal unvisted link*/
 a:visited {
   color: #584d3d;
+  /*the above selector changes the color of any visted links */
 }
 a:hover {
   color: #000080;
 }
+/* the above link changes the color to any link the mouse hobers over*/
 #round1 {
   border: 3px solid brown;
   border-radius: 8px;
   padding: 5px;
   margin: 25px 50px 75px 100px;
   background-color: tan;
-  text-align: center
+  text-align: center;
+  font-size: 4em;
 }
+/*the above selectors change the font size to 4, align the text, turn the background color to tan, sets up a border with a color of solid brown thats 3 pixels in height a padding of 5 and a rounded edge at 8 pixels.  With the Margins of the border being 25pixels at the top, 50 pixels at the right, 75 pixels on the bottom and 100 pixels on the left, the above design was inspired from designs seen from https://www.w3schools.com/Css/css_margin.asp */
+
 p{
 	margin-bottom: 0em;
 	  display: inline-block;
- 
+ /* the above selectors change the margins of all <p> elements on the bottom to 0 and turn them into in-line blocks*/
 	}
 	 .bold{
 	 font-weight: bold;
+	 /* the above selectors change all the fonts in the associated class to bold*/
 	 }
+	
 	.paragraph{
 	 padding-left: 50px;
+	 /* the above selector changes the padding to 50 pixels to the left */
 	 }
+	 .emptylist{
+	   list-style-type: none;
+	          display: inline-block;
+  margin: 0;
+  padding: 0;
+  /*the above selectors change the list style type to none as well as changing the display to an in line block, and turn the margins and padding to 0 as well  */
+  }
 </style>
-
+</head>
+<body>
 
 <h1 id ="round1"> Craig Jurkiewicz's Resume</h1>
-<h1 class="headings">Education</h1>
-<div>
-<p>
 
- <a href="https://flemingcollege.ca/programs/geographic-information-systems-applications-specialist">
+<h1 class="headings">Education</h1>
+
+<div>
+
+<p>
+<a href="https://flemingcollege.ca/programs/geographic-information-systems-applications-specialist">
  Geographical Information Sciences Applications Specialist
  </a>
-<div class= "indent1">
+ <div class= "indent1">
 <li>Fleming College <div class = "indent2"> September 2022-May 2024</li>
 </div> </div>
-
 </p>
 
+<p>
 <a href="https://www.senecacollege.ca/programs/fulltime/VTE.html">Veterinary Technician	</a>				               
 <div class= "indent1">
 <li>Seneca College <div class = "indent2"> September 2017 - April 2019 
-</div>				
+</div></div>	
+<p>
 
 <a href=
 "https://www.uoguelph.ca/programs/zoology/">
-  Geographical Informational Sciences Applicaitons Specialist
+  BSc. Zoological Sciences
  </a>
 <div class= "indent1">
-<li>University of Guelph <div class = "indent2"> September 2012-May 2016</li>
-</div>
-</p>
+<li>University of Guelph <div class = "indent2"> September 2012-May 2016</li>	</div>
+</p>	
 
-</div>
 <h1 class = "headings"> Employment History</h1>
 
 <p class = "bold">Medical Foster Agent </p>
 <div class = "indent2">  Feb 2020 - August 2023</div>
+<ul class = "emptylist"><p class = "bold"> Toronto Humane Society</p>	<div class = "indent2">			Toronto, Ontario </div>  </ul> 
 
-Toronto Humane Society				Toronto Ontario  </p> 
-<li class = "paragraph">Triage emergency overnight cases of foster animal</li>
+<li class = "paragraph">Triage emergency overnight cases of foster animals with in the GTA</li>
 <li class = "paragraph">Discharged medical foster cases to members of the public, going over medications, medical disclosures, and overall goals of fostering</li>
 	 <li class = "paragraph">Created protocols and information pamphlets going over triaging, medications, and nutrition for THS staff members and volunteers.</li>
-</p>
+	 
+	 
+<p class = "bold">Veterinary Technician</p><div class = "indent2">   			              May - August 2019</div>
 
+<ul class = "emptylist"><p class = "bold"> Veterinary Emergency Clinic</p>	<div class = "indent2">			Toronto, Ontario </div>  </ul> 
 
-
-<p class = "bold">Veterinary Technician<div class = "indent2">   			              May - August 2019</div>
-Veterinary Emergency Clinic				  Toronto Ontario </p>
 <li class = "paragraph">Assessed patients, administered medications and relayed information to the Attending Veterinarian to ensure patient medical treatments were up to date</li>
-<li class = "paragraph">Assisted in discharging patients and communicating with clients regarding medications and further procedures, guaranteeing minimal client confusion in regards to patient welfare </li></p>
+<li class = "paragraph">Assisted in discharging patients and communicating with clients regarding medications and further procedures, guaranteeing minimal client confusion in regards to patient welfare </li>
+
 
 <p class = "bold">
 Veterinary Technician (placement)</p><div class = "indent2">				   January 2019 - April 2019 </div>
-McGilvray Veterinary Hospital				   Toronto Ontario
+<p class = "bold">McGilvray Veterinary Hospital	</p>	<div class = "indent2">			   Toronto Ontario </div>
+
 <li class = "paragraph">Assisted in monitoring patients during anesthesia, allowing for surgeries to be completed without complications</li>
 <li class = "paragraph"> Collaborated with technicians and veterinarians in monitoring patients during examinations and procedures </li>
 <li class = "paragraph">Preformed cleaning duties during down time e.g. washing laundry, and cleaning tables and surgical packs to keep regularly used equipment sanitized and sterilized.</li>
 
-<p>
-Animal Care Attendant	<div class = "indent2">			   October 2017 - December 2017 Seneca College 				 </div> 		   King City Ontario
+
+<p class = "bold">Animal Care Attendant	</p>
+<div class = "indent2">	 October 2017 - December 2017</div>
+<ul class = "emptylist">
+ <p class = "bold">Seneca College </ul></p>   King City Ontario 
 <li class = "paragraph">Coordinated thorough cleanup of animal pens, from cats and dogs. to horses, cattle, and sheep, facilitating adherence to health and safety codes</li>
 <li class = "paragraph">	Administered oral medication for animals that required medical intervention</li>
 <li class = "paragraph">Exercised proper restraint of animals when more physical procedures were necessary to give veterinarians best control and access to the patient</li>
-</p>
-<p>
-Research Assistant	<div class = "indent2"> September 2014 – May 2016 </div> 
-Hagan Aqualab 			      Guelph Ontario	  </p> 
-<li class = "paragraph">Fed and monitored fire-bellied toads used in research experiments involving memory-based recognition patterns</li>
+ 
+
+<p class = "bold"> Research Assistant </p>  <div class = "indent2">September 2014 – May 2016 </div> 
+<ul class = "emptylist"><p class = "bold">Hagan Aqualab </p> <div class = "indent2"> 
+Guelph Ontario </div> </ul> 
+
 
 <li class = "paragraph">Aided in research projects run by the Laberge Comparative Physiology lab which included monitoring experiments and taking care of research animals, ensuring high quality results </li>
 <li class = "paragraph">Helped to train volunteers with experiments and animal care, resulting in seamless animal husbandry and sanitation procedures</li>
-</p>
-<p>
-Student Assistant    <div class = "indent2">   			 		    January 2015 – April 2015 </div>	 University of Guelph					               Guelph Ontario
-<li class = "paragraph">Assisted students who required accessibility services through preparation of clear and detailed lecture notes in order to provide them with up-to-date classroom material  </li> 
-<li class = "paragraph">Discussed notes and contents with peers after class in small groups, to learn in a group setting and give other students the experience of classroom learning </li>
-<li class = "paragraph">	Modified teaching and communication style to effectively communicate with peers of varying levels of accessibility needs </li>
-</p>
+
 <h1 class="headings"> Volunteer History </h1>
-<p>
-Animal Caretaker 	<div class = "indent2">					September 2017 – April 2019 </div>
- Animal Health Center Seneca College        		King City Ontario
+
+<p class = "bold"> Animal Caretake </p>  <div class = "indent2">September 2017 – May 2019 </div> 
+<ul class = "emptylist"><p class = "bold">Seneca College </p> <div class = "indent2"> 
+King City, Ontario</div> </ul> 
 <li class = "paragraph">Followed proper sanitation protocols while cleaning cages/runs/pens to give animals on site clean and sanitary living conditions. </li>
 <li class = "paragraph">Used proper restraining techniques while giving medication and preforming procedures for speedy and safe examinations </li>
 <li class = "paragraph">	Took charge of barn clean ups to ensure smooth and orderly cleanup procedures </li>
-</p>
-<p>
-Canine Cleanliness Worker	<div class = "indent2">						October 2015 - April 2017 </div>
-Guelph Humane Society Guelph					Guelph Ontario
+
+
+<p class = "bold"> Canine Cleanliness Worker</p>  <div class = "indent2">October 2015 – April 2017 </div> 
+<ul class = "emptylist"><p class = "bold">Guelph Humamne Society </p> <div class = "indent2"> Guelph Ontario</div> </ul>
 <li class = "paragraph">Thoroughly sanitized cages and kennels to reduce spread of bacteria and pathogens to other dogs </li>
 <li class = "paragraph">Exercised and socialized with cats and dogs at the shelter to reduce stress and build trust </li>
 <li class = "paragraph">Effectively communicated the Guelph Humane Society policy and beliefs regarding animal welfare and rights to help educate the public on animals living in shelter conditions </li>
-</p>
-<p>
-Personal Support Camper 	<div class = "indent2">  
-  August 2015 - August
-  2017 	</div>                                              Merrywood Easter Seals     		                                               Perth Ontario
+
+<p class = "bold"> Personal Support Worker </p>  <div class = "indent2">August 2015 - August
+  2017  </div> 
+<ul class = "emptylist"><p class = "bold">Merrywood Easter Seals </p> <div class = "indent2"> 
+Perth, Ontario</div> </ul> 
 <li class = "paragraph">Helped and socialized with campers who had Multiple Sclerosis during the day/night </li>
 <li class = "paragraph">	Aided those with special needs in activities throughout the day to ensure they felt welcomed and accommodated </li>
 <li class = "paragraph">Helped in organizing and running events with campers so that all campers could participate </li>
 
 
-</p>
 <h2 class="headings">References Available Upon Request</h2>
 
 <p><a href="page2.html">Hobbies, Home Bakes Goods and another thing I can quote with an H</a></p>
