@@ -1,0 +1,72 @@
+ 
+
+body{
+background-color:#ffe4b5 
+}
+/* This selector changes the background color */
+.indent1 {
+  text-indent: 50px;
+  
+}
+
+ 
+
+.indent2{
+	text-indent: 400px;
+	 display: inline-block;
+	  /* These selectors indent the line 400 pixels and turn the element into an in-line block */
+}
+.headings{
+	text-align: center;
+	color: brown; 
+	    font-size: 2.5em
+	/* the above celectors align the text to the center of the webpage, turn the font color brown and change the font size to 2.5*/
+}
+a{ 
+	text-decoration: none;
+	}
+	/* the above selector turns off the text decoration to any hyperlinks*/
+a:link {
+  color: #56494c;
+}
+/* the above selector changes the color of a normal unvisted link*/
+a:visited {
+  color: #584d3d;
+  /*the above selector changes the color of any visted links */
+}
+a:hover {
+  color: #000080;
+}
+/* the above link changes the color to any link the mouse hobers over*/
+#round1 {
+  border: 3px solid brown;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 25px 50px 75px 100px;
+  background-color: tan;
+  text-align: center;
+  font-size: 4em;
+}
+/*the above selectors change the font size to 4, align the text, turn the background color to tan, sets up a border with a color of solid brown thats 3 pixels in height a padding of 5 and a rounded edge at 8 pixels.  With the Margins of the border being 25pixels at the top, 50 pixels at the right, 75 pixels on the bottom and 100 pixels on the left, the above design was inspired from designs seen from https://www.w3schools.com/Css/css_margin.asp */
+
+p{
+	margin-bottom: 0em;
+	  display: inline-block;
+ /* the above selectors change the margins of all <p> elements on the bottom to 0 and turn them into in-line blocks*/
+	}
+	 .bold{
+	 font-weight: bold;
+	 /* the above selectors change all the fonts in the associated class to bold*/
+	 }
+	
+	.paragraph{
+	 padding-left: 50px;
+	 /* the above selector changes the padding to 50 pixels to the left */
+	 }
+	 .emptylist{
+	   list-style-type: none;
+	          display: inline-block;
+  margin: 0;
+  padding: 0;
+  /*the above selectors change the list style type to none as well as changing the display to an in line block, and turn the margins and padding to 0 as well  */
+  }
