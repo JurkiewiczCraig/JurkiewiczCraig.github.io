@@ -1,6 +1,6 @@
  
 
-body{
+.body1{
 background-color:#ffe4b5 
 }
 /* This selector changes the background color */
@@ -70,3 +70,68 @@ p{
   padding: 0;
   /*the above selectors change the list style type to none as well as changing the display to an in line block, and turn the margins and padding to 0 as well  */
   }
+
+
+
+
+/* start of page 2 */
+
+ .body2{
+background-color:#D6CC99 
+}
+  div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #183D3D;
+}
+/* the above declarations turn all list style types to none, have 0 margin, no padding turn the background color of all lists to #183D3D and clips the content and makes any overflow hidden */
+
+.li {
+  float: left;
+}
+/*the above declarition floats the element to the left for all list items */
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*the above declaration puts all links in a list to be displayed in a block, font to be white, text to be centered with no underline and a padding of 14px by 16px,  the above design was inspired from w3 schools */
+
+.li a:hover {
+  background-color: #111;
+  li {
+  border-right: 1px solid #bbb;
+}
+
+/* the above declarations change the background color to all links in a lists background color to #111, as well as all lists to have a 1px solid color of #bbb,  the above design was inspired from w3 schools */
+li:last-child {
+  border-right: none;
+}
+
+ 
+ 
