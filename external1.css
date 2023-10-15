@@ -37,6 +37,10 @@ a:visited {
 a:hover {
   color: #000080;
 }
+h2{margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
 /* the above link changes the color to any link the mouse hobers over*/
 #round1 {
   border: 3px solid brown;
