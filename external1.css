@@ -138,13 +138,13 @@ li:last-child {
 }
 
  
- /* beggining of reading page */
+ /* beggining of cycling page */
 
 	<style>
 .liststyle{
-  list-style-type: square
+  list-style-type: square;
  }
   .body3{
-background-color: #CCFFFF
+background-color: #CCFFFF;
 }
-</style>
+
