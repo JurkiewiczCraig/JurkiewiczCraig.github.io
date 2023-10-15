@@ -8,8 +8,8 @@ background-color:#ffe4b5
   text-indent: 50px;
 }
 /*cycling page */
-.body3{
-background-color:#FFCC99; 
+  .body3{
+background-color: #FFCC99;
 }
 /* reading page */
 .body4{
@@ -17,9 +17,12 @@ background-color: #F9F3CC;
 }
 /*cooking page */
  
-.body5{
-background-color: #D2E0FB; 
+   .body5{
+background-color: #D7E5CA;
 }
+
+
+ 
  
 
 .indent2{
