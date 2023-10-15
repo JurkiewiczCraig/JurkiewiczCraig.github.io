@@ -7,10 +7,19 @@ background-color:#ffe4b5
 .indent1 {
   text-indent: 50px;
 }
+/*cycling page */
 .body3{
 background-color:#FFCCFF; 
 }
-
+/* reading page */
+.body4{
+background-color: #F9F3CC;
+}
+/*cooking page */
+ 
+.body4{
+background-color: #D2E0FB; 
+}
  
 
 .indent2{
