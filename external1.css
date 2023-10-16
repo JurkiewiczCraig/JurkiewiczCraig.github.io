@@ -1,33 +1,42 @@
+ 
 .width { max-width: 1000px;
+		margin: auto;
   width: 60%;
   border: 3px solid #73AD21;
   padding: 10px;
        }
 
 .body1{
-background-color:#ffe4b5 
+background-color:#ffe4b5; 
 }
 /* This selector changes the background color */
 .indent1 {
-  text-indent: 500px;
+  text-indent: 50px;
+  
 }
-/*cycling page */
+/* beggining of cycling page */
+
+.liststyle{
+  list-style-type: square;
+ }
   .body3{
 background-color: #FFCC99;
 }
+   .body5{
+background-color: #D7E5CA;
+}
+ 
 /* reading page */
 .body4{
 background-color: #F9F3CC;
 }
 /*cooking page */
  
-   .body5{
-background-color: #D7E5CA;
+.body4{
+background-color: #D2E0FB
+ 
 }
 
-
- 
- 
 
 .indent2{
 	text-indent: 400px;
@@ -37,7 +46,7 @@ background-color: #D7E5CA;
 .headings{
 	text-align: center;
 	color: brown; 
-	    font-size: 2.5em
+	    font-size: 2.5em;
 	/* the above celectors align the text to the center of the webpage, turn the font color brown and change the font size to 2.5*/
 }
 a{ 
@@ -47,6 +56,9 @@ a{
 a:link {
   color: #56494c;
 }
+
+
+
 /* the above selector changes the color of a normal unvisted link*/
 a:visited {
   color: #584d3d;
@@ -90,8 +102,9 @@ p{
 	          display: inline-block;
   margin: 0;
   padding: 0;
+    }
   /*the above selectors change the list style type to none as well as changing the display to an in line block, and turn the margins and padding to 0 as well  */
-  }
+  
 
 
 
@@ -99,7 +112,7 @@ p{
 /* start of page 2 */
 
  .body2{
-background-color:#D6CC99 
+background-color:#D6CC99;
 }
   div.gallery {
   margin: 5px;
@@ -155,16 +168,12 @@ li:last-child {
   border-right: none;
 }
 
- 
- /* beggining of cycling page */
-
-.liststyle{
-  list-style-type: square;
- }
- 
 
 .headings2{
 	text-align: center;
 	 
 	    font-size: 2.5em;
+	/* the above celectors align the text to the center of the webpage, turn the font color brown and change the font size to 2.5*/
+}
+ 
  
