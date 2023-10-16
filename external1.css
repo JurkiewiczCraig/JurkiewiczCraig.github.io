@@ -142,7 +142,7 @@ div.desc {
 
 .li a:hover {
   background-color: #111;
-  li {
+  li 
   border-right: 1px solid #bbb;
 }
 
