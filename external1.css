@@ -1,11 +1,5 @@
  
-.width { max-width: 1000px;
-		margin: auto;
-  width: 60%;
  
-  padding: 10px;
-	text-align: center;
-       }
 
 .body1{
 background-color:#ffe4b5; 
@@ -178,3 +172,10 @@ li:last-child {
 }
  
  
+.width { max-width: 1000px;
+		margin: auto;
+  width: 60%;
+ 
+  padding: 10px;
+	text-align: center;
+       }
