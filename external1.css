@@ -2,9 +2,12 @@
 .width { max-width: 1000px;
 		margin: auto;
   width: 60%;
- 
   padding: 10px;
        }
+/* setting up a class to make everything insdie of it have a max width of 1000pixels with an automatic margin, a padding of 10pixels and a width of
+60%, inspired from w3 schools
+https://www.w3schools.com/cssref/pr_dim_width.php
+*/
 
 .body1{
 background-color:#ffe4b5; 
@@ -12,9 +15,8 @@ background-color:#ffe4b5;
 /* This selector changes the background color */
 .indent1 {
   text-indent: 50px;
-  
 }
-/* beggining of cycling page */
+*/ selector sets up the element to be indented 50 pixels */
 
 .liststyle{
   list-style-type: square;
@@ -34,7 +36,6 @@ background-color: #F9F3CC;
  
 .body4{
 background-color: #D2E0FB
- 
 }
 
 
