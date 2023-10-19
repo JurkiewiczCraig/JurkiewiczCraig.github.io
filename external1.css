@@ -22,11 +22,9 @@ background-color:#ffe4b5;
    .body5{
 background-color: #D7E5CA;
 }
+ /*the above selector changes the background color of the element to D7E5CA */
+
  
-/* reading page */
-.body4{
-background-color: #F9F3CC;
-}
 /*cooking page */
  
 .body4{
@@ -52,9 +50,6 @@ a{
 a:link {
   color: #56494c;
 }
-
-
-
 /* the above selector changes the color of a normal unvisted link*/
 a:visited {
   color: #584d3d;
@@ -63,10 +58,6 @@ a:visited {
 a:hover {
   color: #000080;
 }
-h2{margin-block-start: 1em;
-    margin-block-end: 1em;
-}
-
 /* the above link changes the color to any link the mouse hobers over*/
 #round1 {
   border: 3px solid brown;
@@ -102,7 +93,8 @@ p{
   margin: 0;
   padding: 0;
     }
-  /*the above selectors change the list style type to none as well as changing the display to an in line block, and turn the margins and padding to 0 as well  */
+  /*the above selectors change the list style type to none as well
+as changing the display to an in line block, and turn the margins and padding to 0 as well  */
   
 
 
@@ -113,26 +105,33 @@ p{
  .body2{
 background-color:#D6CC99;
 }
-  div.gallery {
+  .gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
   width: 180px;
 }
-
+/* the above selector creates a gallery with a margin of 5px, a border one pixel in width withats #ccc in color floating to the legt 
+with a with of 180pixels.  inspiration was taken form w3 schools
+https://www.w3schools.com/Css/css_image_gallery.asp */
 div.gallery:hover {
+	
   border: 1px solid #777;
 }
-
+/*the above selector creates a border over the gallery when the mouse hovers over it with a color of #777 
+, inspiration was taken from w3 schools https://www.w3schools.com/Css/css_image_gallery.asp */
 div.gallery img {
   width: 100%;
   height: auto;
 }
+/* selector creates a gallery for the images to be shown that use 100% of their width and an automatic height set up */
 
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
 }
+/* the above selector gives a description to be added to the gallery that has a padding of 15 pixels and aligns the text to the cetner. 
+inspiration was taken from w3 schools https://www.w3schools.com/Css/css_image_gallery.asp */
 .ul2 {
   list-style-type: none;
   margin: 0;
@@ -154,7 +153,9 @@ div.desc {
   padding: 14px 16px;
   text-decoration: none;
 }
-/*the above declaration puts all links in a list to be displayed in a block, font to be white, text to be centered with no underline and a padding of 14px by 16px,  the above design was inspired from w3 schools */
+/*the above declaration puts all links in a list to be displayed
+in a block, font to be white, text to be centered with no underline and 
+a padding of 14px by 16px,  the above design was inspired from w3 schools */
 
 .li a:hover {
   background-color: #111;
