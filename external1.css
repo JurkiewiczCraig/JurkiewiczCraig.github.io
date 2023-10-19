@@ -80,6 +80,9 @@ h2{margin-block-start: 1em;
   background-color: tan;
   text-align: center;
   font-size: 4em;
+      margin-block-start: 1em;
+    margin-block-end: 1em;
+   
 }
 /*the above selectors change the font size to 4, align the text, turn the background color to tan, sets up a border with a color of solid brown thats 3 pixels in height a padding of 5 and a rounded edge at 8 pixels.  With the Margins of the border being 25pixels at the top, 50 pixels at the right, 75 pixels on the bottom and 100 pixels on the left, the above design was inspired from designs seen from https://www.w3schools.com/Css/css_margin.asp */
 
