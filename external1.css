@@ -16,7 +16,7 @@ background-color:#ffe4b5;
 .indent1 {
   text-indent: 50px;
 }
-*/ selector sets up the element to be indented 50 pixels */
+/* selector sets up the element to be indented 50 pixels */
 
  
    .body5{
@@ -25,12 +25,12 @@ background-color: #D7E5CA;
  /*the above selector changes the background color of the element to D7E5CA */
 
  
-/*cooking page */
+ 
  
 .body4{
-background-color: #D2E0FB
+background-color:  
 }
-
+ /*the above selector changes the background color of the element to #D2E0FB */
 
 .indent2{
 	text-indent: 400px;
@@ -71,7 +71,11 @@ a:hover {
     margin-block-end: 1em;
    
 }
-/*the above selectors change the font size to 4, align the text, turn the background color to tan, sets up a border with a color of solid brown thats 3 pixels in height a padding of 5 and a rounded edge at 8 pixels.  With the Margins of the border being 25pixels at the top, 50 pixels at the right, 75 pixels on the bottom and 100 pixels on the left, the above design was inspired from designs seen from https://www.w3schools.com/Css/css_margin.asp */
+/*the above selectors change the font size to 4, align the text, 
+turn the background color to tan, sets up a border with a color of solid brown thats
+3 pixels in height a padding of 5 and a rounded edge at 8 pixels.  With the Margins of the border 
+being 25pixels at the top, 50 pixels at the right, 75 pixels on the bottom and 100 pixels on the left,
+the above design was inspired from designs seen from https://www.w3schools.com/Css/css_margin.asp */
 
 p{
 	margin-bottom: 0em;
@@ -114,13 +118,13 @@ background-color:#D6CC99;
 /* the above selector creates a gallery with a margin of 5px, a border one pixel in width withats #ccc in color floating to the legt 
 with a with of 180pixels.  inspiration was taken form w3 schools
 https://www.w3schools.com/Css/css_image_gallery.asp */
-div.gallery:hover {
+.gallery:hover {
 	
   border: 1px solid #777;
 }
 /*the above selector creates a border over the gallery when the mouse hovers over it with a color of #777 
 , inspiration was taken from w3 schools https://www.w3schools.com/Css/css_image_gallery.asp */
-div.gallery img {
+.gallery img {
   width: 100%;
   height: auto;
 }
